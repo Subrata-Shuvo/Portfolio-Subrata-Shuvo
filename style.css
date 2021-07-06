@@ -1,8 +1,39 @@
 body {
-  font-family: "Anton", sans-serif;
-  font-family: "Righteous", cursive;
-  font-size: larger;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
 }
+
 .name {
   color: orangered;
+}
+
+.section1 img {
+  height: 400;
+  width: 400;
+}
+section {
+  display: flex;
+}
+.half-width img {
+  width: 80%;
+  padding-right: 50px;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.link-button {
+  text-decoration: none;
+  background-color: orangered;
+  padding: 10px 40px;
+  color: aliceblue;
+  border-radius: 5% 5% 5% 5%;
+  background-image: linear-gradient(rgb(255, 68, 0), rgb(255, 107, 107));
+  font-weight: 700;
+}
+.banner {
+  background-image: url(sky.png);
+  height: 450px;
 }
